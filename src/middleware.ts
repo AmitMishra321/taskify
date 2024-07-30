@@ -20,7 +20,6 @@ export default clerkMiddleware((auth, req) => {
   }
 
   if (!auth().userId && !isPublicRoute(req)) {
-    console.log("hello1");
     return auth().redirectToSignIn({ returnBackUrl: req.url });
   }
 

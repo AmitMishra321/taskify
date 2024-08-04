@@ -3,7 +3,7 @@
 import React from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Image from "next/image";
-import { cn } from "@/lib/utils";
+import { cn } from "../../../../../lib/utils";
 import { Activity, CreditCard, Layout, Settings } from "lucide-react";
 import {
   AccordionContent,

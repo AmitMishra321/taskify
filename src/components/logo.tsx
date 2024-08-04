@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 // import localfont from "next/font/local";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 
 // const headingFont = localfont({
 //   src: "../../../public/fonts/font.woff2",
